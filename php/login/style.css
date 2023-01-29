@@ -1,0 +1,59 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+main{
+    background-image: linear-gradient(#6800ca, #8400ff);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-grow: inherit;
+    height: 100vh;
+}
+.erro{
+    width: 25vw;
+    height: 4vh;
+    padding: 2vh;
+}
+.erro h3, h5{
+    color: #a50000;
+}
+form{
+    width: 30vw;
+    height: 35vh;
+    background-color: #f1dbff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: #000000 0vh 0.5vh 2vh;
+    border-radius: 2vh;
+    transition: 0.5s;
+}
+#nome, #senha{
+    width: 25vw;
+    height: 5vh;
+    font-size: 2.4vh;
+    background-color: transparent;
+    color: #272727;
+    border: none;
+    border-bottom: 0.5vh solid #8400ff;
+}
+#sub{
+    width: 25vw;
+    height: 5vh;
+    background-color: #8822e9;
+    color: #ffffff;
+    border: none;
+    font-size: 2.4vh;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#sub:hover{
+    background-color: #6500c4;
+}
